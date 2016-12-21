@@ -36,8 +36,8 @@ window.onload = function() {
 	init();
 	setInterval(init, 5);
 	setInterval(function(){
-		u[150][260] = -255;
-		u[150][360] = -255;
+		u[75][130] = -255;
+		u[75][180] = -255;
 	}, 1000);
 	setInterval(function(){
 		if(flag) {
