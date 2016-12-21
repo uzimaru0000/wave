@@ -27,11 +27,11 @@ window.onload = function() {
 		}
 	}
 
-	createObject(100, 0, 10, 300);
-	createObject(100, 320, 10, 320);
-	createObject(150, 0, 10, 250);
-	createObject(150, 270, 10, 80);
-	createObject(150, 370, 10, 270);
+	createObject(50, 0, 5, 150);
+	createObject(50, 160, 5, 160);
+	createObject(75, 0, 5, 125);
+	createObject(75, 135, 5, 40);
+	createObject(75, 185, 5, 135);
 
 	init();
 	setInterval(init, 5);
