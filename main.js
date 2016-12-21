@@ -38,7 +38,7 @@ window.onload = function() {
 	setInterval(function(){
 		u[75][130] = -255;
 		u[75][180] = -255;
-	}, 1000);
+	}, 500);
 	setInterval(function(){
 		if(flag) {
 			u[mouseX][mouseY] = -255;
