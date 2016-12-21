@@ -84,7 +84,7 @@ function updateWave() {
 	var w = canv.width;
 	var h = canv.height;
 	var ss = 0.3;
-	var a = 0.999;
+	var a = 0.99;
 	var n = 1;
 
 	for(var x = n; x < w-n; x++) {
