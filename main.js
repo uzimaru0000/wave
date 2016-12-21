@@ -43,7 +43,7 @@ window.onload = function() {
 		if(flag) {
 			u[mouseX][mouseY] = -255;
 		}
-	}, 50);
+	}, 25);
 
 	canv.addEventListener("mousedown", function(e) {
 		flag = true;
